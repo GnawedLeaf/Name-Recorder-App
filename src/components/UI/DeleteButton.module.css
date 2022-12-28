@@ -1,0 +1,25 @@
+.button {
+    border-radius: 30px;
+    width: 100%;
+    background-color: #d74f43;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+
+}
+
+.button:active {
+    background-color: #a93f35;
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 0 4% 0 4%;
+        width: auto;
+        height: 2.2rem;
+    }
+
+}

@@ -1,0 +1,19 @@
+.card {
+
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px #cdcdcd solid;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+
+@media (min-width: 768px) {
+    .card {
+        width: 50%;
+    }
+
+}

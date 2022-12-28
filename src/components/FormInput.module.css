@@ -1,0 +1,35 @@
+.form-control input {
+    display: block;
+    width: 90%;
+    height: auto;
+    border: 1px black solid;
+}
+
+.form-control label {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.form-control {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.form-control.invalid label {
+    color: red;
+}
+
+.form-control.invalid input {
+    background-color: salmon;
+    border-color: salmon;
+}
+
+
+@media (min-width: 768px) {
+    .form-control input {
+        width: 50%;
+        height: 1.3rem
+    }
+}
