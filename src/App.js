@@ -47,6 +47,7 @@ function App() {
       <div className='title'>Name Recorder App</div>
       <FormInput onAddingNewPerson={newPersonHandler} questionsInput={questions}></FormInput>
       <NameList onDelete={deleteHandler} peopleList={peopleArray}></NameList>
+      <div className="footer">Made with React</div>
     </div>
   );
 
